@@ -1,0 +1,10 @@
+/* tipografy */
+
+/* google fonts :  Krona+One */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat+Alternates:wght@400;600&display=swap');
+
+html {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/pages/index.main.css">
+    <link rel="stylesheet" href="css/pages/contact.main.css">
+    <link rel="stylesheet" href="css/app.hub.css">
+    <title>devdalua.me</title>    
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <nav class="top-nav">
+            <div class="top-nav_div">
+                <img
+                    src="assets/devdalua_200x.png"
+                    alt="logo"
+                    width="60px"
+                    height="60px"
+                    srcset="assets/devdalua_200x.png 1x"
+                    loading="eager"
+                >
+                <h2>devdalua</h2>
+            </div>
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+            </label>
+            <ul class="menu">
+                <li>
+                    <h2 id="linkhome">home</h2>
+                </li>
+                <li>
+                    <h2 id="linkabout">about</h2>
+                </li>
+                <li>
+                    <h2 id="linkproj">projetcs</h2>
+                </li>
+                <li>
+                    <h2 id="comewithme">contact</h2>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- main -->
+    <main>
+        <form id="contact-form">
+            <h2>Fale Conosco</h2>
+            
+            <label for="user_name">Seu Nome:</label>
+            <input type="text" name="user_name" id="user_name" required>
+            
+            <label for="user_email">Seu E-mail:</label>
+            <input type="email" name="user_email" id="user_email" required>
+            
+            <label for="message">Mensagem:</label>
+            <textarea name="message" id="message" required></textarea>
+            
+            <div class="form-submit">
+                <button type="submit" class="btn">Enviar Mensagem</button>
+            </div>
+            <p id="feedback-message"></p>
+        </form>
+    </main>
+    <!-- footer -->
+    <footer class="rodape">
+        <div class="foo-general">
+            <div class="foo-social">
+                <img
+                    src="assets/github.png"
+                    alt="💜 Github: @lua233 💜"
+                    title="💜 Github: @lua233 💜"
+                >
+                <img
+                    src="assets/instagram.png"
+                    alt="💜 Instagram: @devda_lua 💜"
+                    title="💜 Instagram: @devda_lua 💜"
+                >
+                <img
+                    src="assets/linkedin.png"
+                    alt="💜 Linkedin: @luanasilva 💜"
+                    title="💜 Linkedin: @luanasilva 💜"
+                >
+            </div>
+            <div class="foo-body">
+                <ul>
+                    <li>
+                        <h2>home</h2>
+                    </li>
+                    <li>
+                        <h2>about</h2>
+                    </li>
+                    <li>
+                        <h2>projetcs</h2>
+                    </li>
+                    <li>
+                        <h2>contact</h2>
+                    </li>
+                </ul>
+            </div>
+            <div class="foo-copyright">
+                <h5>Dev by Luana da Silva <b class="foo-co_devlua">devdalua</b></h5>
+                <h5>colaboração <b class="foo-co_codebabel">codebabel</b></h5>
+                <h5>&copy; 2025</h5>
+            </div>
+        </div>
+    </footer>
+<script type="module" src="jvs/app.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</body>
+</html>
